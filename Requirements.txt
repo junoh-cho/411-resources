@@ -1,0 +1,41 @@
+Agile
+Theme: Get GiggleGit demo into a stable enough alpha to start onboarding some adventurous clients
+Epic: Onboarding experience
+
+
+User story 1: As a vanilla git power-user that has never seen GiggleGit before, I want to easily understand how to use GiggleGit.
+
+
+User story 2: As a team lead onboarding an experienced GiggleGit user, I want to enable users to easily integrate their existing GitHub repositories with GiggleGit.
+
+
+User story 3: As a repeat user, I want to customize the types of memes used in merging so that my experience feels more personalized and engaging.
+
+	Task: Implement a meme customization feature.
+		Ticket 1: Provide options for users to choose from a library of memes
+			Create a section in the interface where memes are stored like photo libraries
+
+		Ticket 2: Enable Users to Upload Custom Memes
+			Create a feature in the interface where you can upload png, jpg, gif files
+
+
+"As a user I want to be able to authenticate on a new machine" 
+- This is not a user story because it doesn't provide a reason for this feature. This is a client requirement.
+
+
+Formal requirement
+Goal: Improve SnickerSync web interface to be more intuitive for new users.
+Non-goal: Ensure SnickerSync is ready for wide-scale production use.
+
+Non-functional requirement 1: Scalability
+	Functional requirements:
+		SnickerSync should be able to support a large group of users at once.
+		Create an easy-to-follow registration interface for new users.
+	
+Non-functional requirement 2: Security
+	Functional requirements:
+		Only registered users can access SnickerSync's diff tool.
+		Enable two-factor authentication for returning users.
+
+
+		
